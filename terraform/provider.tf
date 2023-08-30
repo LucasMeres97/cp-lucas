@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "terraform-state-nadin"
+    bucket         = "terraform-state-lucas"
     key            = "terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform-state-lock-nadin"
+    dynamodb_table = "terraform-state-lock-lucas"
     
 
   }
